@@ -1,21 +1,38 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package exemplosjava;
 
-/**
- *
- * @author ronny
- */
+
 public class ExemplosJava {
 
-    /**
-     * @param args the command line arguments
-     */
+    
     public static void main(String[] args) {
-        // TODO code application logic here
+        /* Aqui você pode escrever um texto maior/grande 
+        que será limitado justamente pelos caracteres 
+        barra asterisco acima e asterisco barra
+        abaixo. O exemplo de duas barras // pega
+        apenas a linha */
+        
+        
+        //declarando variáveis no Java
+        String nome, sobrenome;
+        int idade;
+        char sexo;
+        double altura;
+        boolean cadastrado = true;
+        
+        //Atribuindo valores às variaveis
+        nome = "Ronaldo";
+        sobrenome = "Peracio";
+        idade = 32;
+        sexo = 'M';
+        altura = 1.82;
+        
+        //comando de saída...Hello World
+        
+        System.out.println("Hello World");
+        System.out.println(nome);
+        System.out.println(nome + " " + sobrenome);
+                
     }
     
 }
